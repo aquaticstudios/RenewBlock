@@ -1,0 +1,23 @@
+prefix: "&#08FB1D[RenewBlock]"
+
+drop-ore: false
+time-regen: 15
+
+block_replace:
+  switch: true
+  block: BEDROCK
+
+enabled_worlds:
+  - world
+  - example-world
+  - warp-world-example
+
+regenerable_blocks:
+  - DIAMOND_ORE
+  - GOLD_ORE
+  - REDSTONE_ORE
+
+messages:
+  reload: "%prefix% &aReloaded"
+  no-permission: "%prefix% &cNo permission"
+  unknown: "%prefix% &fHelp use /renewblock help"

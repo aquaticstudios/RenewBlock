@@ -1,0 +1,14 @@
+#                                                           Developed by Sxntido
+#                                                     (Aquatic Studios @ (C) 2016-2024)
+
+name: RenewBlock
+version: '${project.version}'
+author: 'Sxntido'
+
+api-version: '1.20'
+main: team.aquatic.studios.RenewBlock
+description: 'All rights reserved by Aquatic Studios'
+
+commands:
+  renewblock:
+    description: Command principal the RenewBlock
