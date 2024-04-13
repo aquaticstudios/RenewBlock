@@ -1,13 +1,13 @@
 prefix: "&#08FB1D[RenewBlock]"
 
-drop-ore: false
-time-regen: 15
+drop-ore: false # When you farm the 'regenerable_blocks' the ore is dropped
+time-regen: 15 # This time option is in seconds
 
-block_replace:
+block_replace: # When you farm the block it becomes this
   switch: true
   block: BEDROCK
 
-enabled_worlds:
+enabled_worlds: # Now it is in worlds coming soon with WorldGuard support
   - world
   - example-world
   - warp-world-example
@@ -18,6 +18,6 @@ regenerable_blocks:
   - REDSTONE_ORE
 
 messages:
-  reload: "%prefix% &aReloaded"
-  no-permission: "%prefix% &cNo permission"
-  unknown: "%prefix% &fHelp use /renewblock help"
+  reload: "%prefix% &fThe config.yml file was reloaded with the new changes"
+  no-permission: "%prefix% &cYou do not have &7'renewblock.admin' &cpermission to run this command"
+  unknown: "%prefix% &fThe command you ran does not exist run &e/renewblock help"
