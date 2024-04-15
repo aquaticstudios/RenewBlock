@@ -19,7 +19,7 @@ public class Commands implements CommandExecutor {
         if (!(sender instanceof Player)) {
             if (args.length == 0) {
                 sender.sendMessage(Utils.Color("&r"));
-                sender.sendMessage(Utils.translateHexColorCodes(Utils.Color("&#08FB1D\uD83D\uDD32 &#08FB1D&lRenewBlock &f(v1.0 - @Sxntido)")));
+                sender.sendMessage(Utils.translateHexColorCodes(Utils.Color("&#5CFF7E⛏ &lRenewBlock &f(v1.0 - @Sxntido)")));
                 sender.sendMessage(Utils.translateHexColorCodes(Utils.Color("&fAll rights reserved by &#00D1FFAquatic Studios")));
                 sender.sendMessage(Utils.Color("&r"));
                 return true;
@@ -31,7 +31,7 @@ public class Commands implements CommandExecutor {
             }
             if (args[0].equalsIgnoreCase("help")) {
                 sender.sendMessage(Utils.Color("&r"));
-                sender.sendMessage(Utils.translateHexColorCodes(Utils.Color("&#08FB1D\uD83D\uDD32 &#08FB1D&lRenewBlock &f(v1.0 - @Sxntido)")));
+                sender.sendMessage(Utils.translateHexColorCodes(Utils.Color("&#5CFF7E⛏ &lRenewBlock &f(v1.0 - @Sxntido)")));
                 sender.sendMessage(Utils.Color("&r"));
                 sender.sendMessage(Utils.translateHexColorCodes(Utils.Color(" &#60FF6E/renewblock help &7- &fDisplay the help message")));
                 sender.sendMessage(Utils.translateHexColorCodes(Utils.Color(" &#60FF6E/renewblock reload &7- &fReload the plugin config.yml")));
@@ -45,7 +45,7 @@ public class Commands implements CommandExecutor {
         Player p = (Player) sender;
         if (args.length == 0) {
             p.sendMessage(Utils.translateHexColorCodes(Utils.Color("&r")));
-            p.sendMessage(Utils.translateHexColorCodes(Utils.Color("    &#08FB1D\uD83D\uDD32 &#08FB1D&lRenewBlock &f(v1.0 - @Sxntido)")));
+            p.sendMessage(Utils.translateHexColorCodes(Utils.Color("    &#5CFF7E⛏ &lRenewBlock &f(v1.0 - @Sxntido)")));
             p.sendMessage(Utils.translateHexColorCodes(Utils.Color("  &fAll rights reserved by &#00D1FFAquatic Studios")));
             p.sendMessage(Utils.translateHexColorCodes(Utils.Color("&r")));
             return true;
@@ -54,7 +54,7 @@ public class Commands implements CommandExecutor {
         if (args[0].equalsIgnoreCase("help")) {
             if (p.hasPermission("renewblock.admin")) {
                 p.sendMessage(Utils.translateHexColorCodes(Utils.Color("&r")));
-                p.sendMessage(Utils.translateHexColorCodes(Utils.Color("      &#08FB1D\uD83D\uDD32 &#08FB1D&lRenewBlock &f(v1.0 - @Sxntido)")));
+                p.sendMessage(Utils.translateHexColorCodes(Utils.Color("      &#5CFF7E⛏ &lRenewBlock &f(v1.0 - @Sxntido)")));
                 p.sendMessage(Utils.translateHexColorCodes(Utils.Color("&r")));
                 p.sendMessage(Utils.translateHexColorCodes(Utils.Color(" &#60FF6E/renewblock help &7- &fDisplay the help message")));
                 p.sendMessage(Utils.translateHexColorCodes(Utils.Color(" &#60FF6E/renewblock reload &7- &fReload the plugin config.yml")));

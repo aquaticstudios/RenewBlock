@@ -88,6 +88,8 @@ public class BlockListener implements Listener {
                 return new ItemStack(Material.DIAMOND);
             case EMERALD_ORE:
                 return new ItemStack(Material.EMERALD);
+            case COPPER_ORE:
+                return new ItemStack(Material.COPPER_INGOT);
             case LAPIS_ORE:
                 return new ItemStack(Material.LAPIS_LAZULI);
             case NETHER_QUARTZ_ORE:
