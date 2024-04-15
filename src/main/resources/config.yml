@@ -1,3 +1,7 @@
+#              RenewBlock developed by @Sxntido
+# https://github.com/Sxntido - https://github.com/aquaticstudios
+
+# Support Colors & HEX: https://www.birdflop.com/resources/rgb/
 prefix: "&#08FB1D[RenewBlock]"
 
 drop-ore: false # When you farm the 'regenerable_blocks' the ore is dropped
@@ -12,7 +16,7 @@ enabled_worlds: # Now it is in worlds coming soon with WorldGuard support
   - example-world
   - warp-world-example
 
-regenerable_blocks:
+regenerable_blocks: # Allowed blocks from this list: https://minecraft.fandom.com/wiki/Ore
   - DIAMOND_ORE
   - GOLD_ORE
   - REDSTONE_ORE
